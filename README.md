@@ -43,7 +43,10 @@ git clone https://github.com/akashnagalwade/Cloud-Vendor-Application.git
 spring.datasource.url=jdbc:mysql://localhost:3306/cloudvendordb
 spring.datasource.username=root
 spring.datasource.password=yourpassword
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+server.port=8080
 ```
 
 3. Run the application
