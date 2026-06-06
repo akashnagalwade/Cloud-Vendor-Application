@@ -3,7 +3,7 @@
 A RESTful API built with Spring Boot to manage Cloud Vendor information with full CRUD operations.
 
 # Tech Stack
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - MySQL
