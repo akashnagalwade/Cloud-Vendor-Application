@@ -17,16 +17,19 @@ A RESTful API built with Spring Boot to manage Cloud Vendor information with ful
 - API documentation with Swagger UI
 
 # Project Structure
+
+````
 src/
-├── main/
-│   ├── java/
-│   │   └── com/cloudvendor/
-│   │       ├── controller/
-│   │       ├── service/
-│   │       ├── repository/
-│   │       └── model/
-│   └── resources/
-│       └── application.properties
+└── main/
+    ├── java/
+    │   └── com/cloudvendor/
+    │       ├── controller/
+    │       ├── service/
+    │       ├── repository/
+    │       └── model/
+    └── resources/
+        └── application.properties
+````
 
 # How to Run
 
@@ -49,9 +52,9 @@ mvn spring-boot:run
 ```
 
 4. Open Swagger UI
-5. http://localhost:8080/swagger-ui.html
+ http://localhost:8080/swagger-ui.html
 
-6. # API Endpoints
+# API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
